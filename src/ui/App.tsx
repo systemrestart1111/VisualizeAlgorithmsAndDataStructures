@@ -7,6 +7,7 @@ import { IconAuto, IconCheck, IconChevron, IconDice, IconMenu, IconMoon, IconPal
 import { SHAPE_CYCLE, Shape } from './shapes';
 import { CodeImpl } from './CodeImpl';
 import { Select } from './Select';
+import { ItemContext, LearningPath, PrereqTree } from './Learn';
 import { SEEDS, revealFrom, useTheme, type Mode } from './theme';
 
 function useHash() {
@@ -195,14 +196,14 @@ export default function App() {
           {!filtered.length && <div className="side-empty">找不到「{q}」</div>}
         </nav>
         <main className="main">
-          {item ? item.kind === 'ds' ? <DSView key={item.id} d={item} /> : <AlgoView key={item.id} a={item} /> : <Home q={q} setQ={setQ} list={filtered} />}
+          {item ? item.kind === 'ds' ? <DSView key={item.id} d={item} /> : <AlgoView key={item.id} a={item} /> : <Home q={q} setQ={setQ} list={filtered} hash={hash} />}
         </main>
       </div>
     </div>
   );
 }
 
-function Home({ q, setQ, list }: { q: string; setQ: (s: string) => void; list: Item[] }) {
+function Home({ q, setQ, list, hash }: { q: string; setQ: (s: string) => void; list: Item[]; hash: string }) {
   const nDS = ITEMS.filter((i) => i.kind === 'ds').length;
   const stats: [Parameters<typeof Shape>[0]['name'], number, string][] = [
     ['cookie12', nDS, '資料結構'],
@@ -279,6 +280,14 @@ function Home({ q, setQ, list }: { q: string; setQ: (s: string) => void; list: I
           ))}
         </div>
       </div>
+      {!q && <LearningPath />}
+      {!q && <PrereqTree hash={hash} />}
+      {!q && (
+        <h2 className="sec-title">
+          全部主題
+          <span>依分類瀏覽 {ITEMS.length} 個項目</span>
+        </h2>
+      )}
       {SECTIONS.map(section)}
       {!list.length && <div className="side-empty">找不到「{q}」</div>}
     </div>
@@ -305,6 +314,7 @@ function Header({ it, extra }: { it: Item; extra?: React.ReactNode }) {
       </h2>
       <p className="desc">{it.desc}</p>
       {extra}
+      <ItemContext id={it.id} />
     </div>
   );
 }

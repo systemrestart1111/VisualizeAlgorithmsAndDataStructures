@@ -8,7 +8,7 @@
     "build": "tsc -p . && vite build",
     "preview": "vite preview",
     "check": "tsx scripts/check.ts",
-    "test": "tsx scripts/check.ts && tsx scripts/ds-invariants.ts",
+    "test": "tsx scripts/check.ts && tsx scripts/ds-invariants.ts && tsx scripts/learning-check.ts",
     "docs": "tsx scripts/gen-docs.ts",
     "check:impl": "tsx scripts/check-impl.ts"
   },
