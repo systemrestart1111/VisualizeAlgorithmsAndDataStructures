@@ -1,0 +1,2 @@
+distance = 3
+ops: replace k->s, replace e->i, insert g

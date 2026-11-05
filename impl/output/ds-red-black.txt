@@ -1,0 +1,12 @@
+insert 41: 41B
+insert 38: 41B(38R,-)
+insert 31: 38B(31R,41R)   [case 3]
+insert 12: 38B(31B(12R,-),41B)   [case 1]
+insert 19: 38B(19B(12R,31R),41B)   [case 2, case 3]
+insert 8: 38B(19R(12B(8R,-),31B),41B)   [case 1]
+insert 45: 38B(19R(12B(8R,-),31B),41B(-,45R))
+insert 50: 38B(19R(12B(8R,-),31B),45B(41R,50R))   [case 3]
+insert 55: 38B(19R(12B(8R,-),31B),45R(41B,50B(-,55R)))   [case 1]
+search 19: found, path 38 -> 19
+search 40: not found, path 38 -> 45 -> 41
+black height = 3 (-1 means invalid)

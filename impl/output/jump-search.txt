@@ -1,0 +1,2 @@
+search 47 -> 12
+search 30 -> -1

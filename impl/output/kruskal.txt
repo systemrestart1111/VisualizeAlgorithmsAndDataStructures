@@ -1,0 +1,7 @@
+take A-D (5)
+take C-E (5)
+take D-F (6)
+take A-B (7)
+take B-E (7)
+take E-G (9)
+total weight = 39

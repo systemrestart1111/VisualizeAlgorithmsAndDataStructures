@@ -1,0 +1,4 @@
+(5,4): inside
+(8,7): outside
+(3,8): inside
+(10,3): outside

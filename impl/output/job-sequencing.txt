@@ -1,0 +1,5 @@
+slot 1: J3 (profit 27)
+slot 2: J1 (profit 100)
+slot 3: J6 (profit 40)
+slot 4: J7 (profit 30)
+total profit = 197

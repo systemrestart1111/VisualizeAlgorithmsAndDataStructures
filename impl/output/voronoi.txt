@@ -1,0 +1,8 @@
+site 0 (3,3): 5 vertices, area = 57.9539
+site 1 (12,4): 5 vertices, area = 57.2362
+site 2 (7,9): 5 vertices, area = 48.7192
+site 3 (2,13): 5 vertices, area = 64.6378
+site 4 (15,12): 6 vertices, area = 66.8650
+site 5 (10,16): 4 vertices, area = 54.8660
+site 6 (17,7): 4 vertices, area = 48.7218
+sum of areas = 399.0000 (box area = 399)

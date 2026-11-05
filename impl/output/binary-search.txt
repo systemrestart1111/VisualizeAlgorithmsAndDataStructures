@@ -1,0 +1,2 @@
+search 67 -> 10
+search 50 -> -1

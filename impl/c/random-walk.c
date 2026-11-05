@@ -1,0 +1,26 @@
+#include <math.h>
+#include <stdio.h>
+
+long long state = 42;
+
+/* Park–Miller 亂數產生器（五種語言結果相同），回傳 0..k-1 */
+int rand_int(int k) {
+    state = state * 48271 % 2147483647;
+    return (int)(state % k);
+}
+
+/* 二維隨機漫步：每步等機率往上下左右走一格；n 步後離原點的距離期望值約為 √n */
+int main(void) {
+    int DX[] = {1, 0, -1, 0}, DY[] = {0, 1, 0, -1};
+    long long x = 0, y = 0, far = 0;
+    for (int step = 1; step <= 400; step++) {
+        int d = rand_int(4);
+        x += DX[d];
+        y += DY[d];
+        if (x * x + y * y > far) far = x * x + y * y;
+        if (step == 100 || step == 200 || step == 400)
+            printf("step %d: position (%lld, %lld), distance = %.4f\n", step, x, y, sqrt((double)(x * x + y * y)));
+    }
+    printf("farthest distance = %.4f, sqrt(n) = %.4f\n", sqrt((double)far), sqrt(400.0));
+    return 0;
+}

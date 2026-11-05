@@ -1,0 +1,4 @@
+a=2, m=3: M_i = 35, M_i^-1 mod 3 = 2, term = 140
+a=3, m=5: M_i = 21, M_i^-1 mod 5 = 1, term = 63
+a=2, m=7: M_i = 15, M_i^-1 mod 7 = 1, term = 30
+x = 23 (mod 105)

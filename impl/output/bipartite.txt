@@ -1,0 +1,2 @@
+set 0: A C E G
+set 1: B D F H

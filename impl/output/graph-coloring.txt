@@ -1,0 +1,2 @@
+m = 3: no solution
+m = 4: A=1 B=2 C=3 D=2 E=1 F=4

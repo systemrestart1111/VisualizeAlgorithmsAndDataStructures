@@ -1,0 +1,6 @@
+init:          10 <-> 20 <-> 30   | backward: 30 20 10
+push_front 5:  5 <-> 10 <-> 20 <-> 30   | backward: 30 20 10 5
+push_back 40:  5 <-> 10 <-> 20 <-> 30 <-> 40   | backward: 40 30 20 10 5
+pop_front -> 5 10 <-> 20 <-> 30 <-> 40   | backward: 40 30 20 10
+pop_back  -> 40 10 <-> 20 <-> 30   | backward: 30 20 10
+remove 20:     True 10 <-> 30   | backward: 30 10

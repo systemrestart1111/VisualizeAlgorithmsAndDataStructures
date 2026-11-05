@@ -1,0 +1,2 @@
+RPN: 3 4 2 5 * max 2 2 ^ neg * + 16 sqrt -
+value = -41

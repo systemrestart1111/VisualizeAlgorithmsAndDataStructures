@@ -1,0 +1,2 @@
+min multiplications = 15125
+order: ((A1(A2A3))((A4A5)A6))

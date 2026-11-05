@@ -1,0 +1,1 @@
+max sum = 8, range [3, 9]

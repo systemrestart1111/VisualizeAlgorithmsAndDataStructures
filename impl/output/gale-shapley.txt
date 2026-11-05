@@ -1,0 +1,7 @@
+A proposes X: accepted
+B proposes Y: accepted
+C proposes X: rejected
+D proposes Z: accepted
+C proposes Z: accepted, D is free again
+D proposes W: accepted
+stable matching: A-X B-Y C-Z D-W

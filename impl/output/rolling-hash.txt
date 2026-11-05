@@ -1,0 +1,3 @@
+substrings of length 3 appearing more than once:
+  'ban' hash=694592 at 0 7
+  'ana' hash=679121 at 1 3 11

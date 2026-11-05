@@ -1,0 +1,6 @@
+range [0, 13] pivot 1 -> position 0
+range [1, 13] pivot 6 -> position 5
+range [1, 4] pivot 3 -> position 2
+range [3, 4] pivot 5 -> position 4
+range [3, 3] pivot 4 -> position 3
+k = 3 -> 4

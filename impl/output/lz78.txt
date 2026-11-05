@@ -1,0 +1,2 @@
+output: (0,A) (0,B) (2,C) (3,A) (2,A) (4,A) (6,B)
+dictionary: 1:A 2:B 3:BC 4:BCA 5:BA 6:BCAA 7:BCAAB

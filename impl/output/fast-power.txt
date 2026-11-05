@@ -1,0 +1,5 @@
+bit 1: result = 3, base = 3
+bit 0: result = 3, base = 9
+bit 1: result = 243, base = 81
+bit 1: result = 1594323, base = 6561
+3^13 = 1594323

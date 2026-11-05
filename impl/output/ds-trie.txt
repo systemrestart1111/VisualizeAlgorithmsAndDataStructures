@@ -1,0 +1,8 @@
+words: in inn tea ten to tree try (nodes = 13)
+search tea -> True  search te -> False (prefix only)
+prefix "te": tea ten
+prefix "tr": tree try
+prefix "x": -
+delete in -> True: inn tea ten to tree try (nodes = 13)
+delete tree -> True: inn tea ten to try (nodes = 11)
+delete tea -> True: inn ten to try (nodes = 10)

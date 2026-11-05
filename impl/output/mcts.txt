@@ -1,0 +1,8 @@
+player to move: O
+move 1: visits 31, wins 4.0
+move 3: visits 38, wins 7.5
+move 5: visits 55, wins 16.0
+move 6: visits 26, wins 2.0
+move 7: visits 35, wins 6.0
+move 8: visits 115, wins 49.0
+best move = 8

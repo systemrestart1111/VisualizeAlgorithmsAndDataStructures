@@ -1,0 +1,2 @@
+search 63 -> 6
+search 100 -> -1

@@ -1,0 +1,5 @@
+item 3 (w=5, v=50, ratio=10.00): take 5/5
+item 0 (w=10, v=60, ratio=6.00): take 10/10
+item 1 (w=20, v=100, ratio=5.00): take 20/20
+item 2 (w=30, v=120, ratio=4.00): take 15/30
+total value = 270.00

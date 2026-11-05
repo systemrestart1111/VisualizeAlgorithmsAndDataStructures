@@ -1,0 +1,2 @@
+bridges: B-I C-D F-G G-H
+articulation points: B C D F G

@@ -1,0 +1,5 @@
+init:         3 -> 7 -> 1 -> null
+push_front 9: 9 -> 3 -> 7 -> 1 -> null
+push_back 4:  9 -> 3 -> 7 -> 1 -> 4 -> null
+remove 7:     True 9 -> 3 -> 1 -> 4 -> null
+find 1 -> 2  find 8 -> -1  size = 4

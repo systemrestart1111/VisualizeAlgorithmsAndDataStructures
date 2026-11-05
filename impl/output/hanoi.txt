@@ -1,0 +1,16 @@
+ 1. disk 1: A -> B
+ 2. disk 2: A -> C
+ 3. disk 1: B -> C
+ 4. disk 3: A -> B
+ 5. disk 1: C -> A
+ 6. disk 2: C -> B
+ 7. disk 1: A -> B
+ 8. disk 4: A -> C
+ 9. disk 1: B -> C
+10. disk 2: B -> A
+11. disk 1: C -> A
+12. disk 3: B -> C
+13. disk 1: A -> B
+14. disk 2: A -> C
+15. disk 1: B -> C
+total moves = 15

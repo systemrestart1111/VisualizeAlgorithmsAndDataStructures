@@ -1,0 +1,5 @@
+S -> B -> C -> T flow 2 x cost 5
+S -> A -> B -> C -> T flow 2 x cost 5
+S -> A -> T flow 1 x cost 7
+S -> A -> C -> B -> T flow 1 x cost 8
+max flow = 6 min cost = 35

@@ -1,0 +1,2 @@
+numbers in [0, 345] with digit sum 10: 33
+brute force check: 33

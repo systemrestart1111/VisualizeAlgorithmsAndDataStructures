@@ -1,0 +1,2 @@
+alignments tried: 0 7 9 15 17
+matches at: 17

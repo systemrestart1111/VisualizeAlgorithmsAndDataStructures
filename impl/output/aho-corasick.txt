@@ -1,0 +1,6 @@
+pos 1: she
+pos 2: he
+pos 2: hers
+pos 6: his
+pos 8: she
+pos 9: he

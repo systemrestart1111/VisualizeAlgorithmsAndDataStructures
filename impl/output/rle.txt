@@ -1,0 +1,2 @@
+encoded: 12W1B12W3B24W1B14W
+length 67 -> 18, decode ok: True

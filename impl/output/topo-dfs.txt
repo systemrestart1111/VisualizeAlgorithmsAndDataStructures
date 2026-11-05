@@ -1,0 +1,2 @@
+post-order: H F G E C A D B
+topological: B D A C E G F H

@@ -1,0 +1,3 @@
+path length = 31
+meet at (4, 9)
+visited cells = 68

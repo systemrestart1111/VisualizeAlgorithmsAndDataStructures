@@ -1,0 +1,7 @@
+push  4: bottom [4] top
+push  8: bottom [4 8] top
+push 15: bottom [4 8 15] top
+peek -> 15
+pop -> 15: bottom [4 8] top
+pop -> 8: bottom [4] top
+push 16: bottom [4 16] top

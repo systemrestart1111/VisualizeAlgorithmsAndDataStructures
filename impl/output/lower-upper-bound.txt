@@ -1,0 +1,3 @@
+lower_bound(9) = 5
+upper_bound(9) = 7
+count of 9 = 2

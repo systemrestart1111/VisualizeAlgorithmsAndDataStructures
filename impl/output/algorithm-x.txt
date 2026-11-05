@@ -1,0 +1,2 @@
+solution: {B D F}
+total solutions = 1

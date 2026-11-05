@@ -1,0 +1,2 @@
+z: 0 1 0 0 0 3 1 0 2 3 1 0
+pattern aab found in text at: 1 5

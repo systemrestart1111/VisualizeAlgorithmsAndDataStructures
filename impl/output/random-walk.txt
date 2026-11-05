@@ -1,0 +1,4 @@
+step 100: position (0, 4), distance = 4.0000
+step 200: position (-1, 9), distance = 9.0554
+step 400: position (4, 6), distance = 7.2111
+farthest distance = 16.2788, sqrt(n) = 20.0000

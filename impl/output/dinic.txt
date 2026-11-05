@@ -1,0 +1,4 @@
+phase 1: levels S=0 A=1 C=1 B=2 D=2 T=3 blocking flow +14
+phase 2: levels S=0 A=3 C=1 B=3 D=2 T=4 blocking flow +5
+max flow = 19
+min cut S-side: S C

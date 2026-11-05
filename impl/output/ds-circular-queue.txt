@@ -1,0 +1,6 @@
+enqueue 1..4:  buffer [1 2 3 4 .] head=0 size=4
+dequeue -> 1 2  buffer [. . 3 4 .] head=2 size=2
+enqueue 5: ok   buffer [. . 3 4 5] head=2 size=3
+enqueue 6: ok   buffer [6 . 3 4 5] head=2 size=4
+enqueue 7: ok   buffer [6 7 3 4 5] head=2 size=5
+dequeue -> 3  buffer [6 7 . 4 5] head=3 size=4

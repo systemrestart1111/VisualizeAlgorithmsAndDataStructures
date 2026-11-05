@@ -1,0 +1,2 @@
+matches at: 6 21
+spurious hits (hash collision): 2 18

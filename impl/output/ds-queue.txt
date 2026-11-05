@@ -1,0 +1,6 @@
+enqueue A: front [A] rear
+enqueue B: front [A B] rear
+enqueue C: front [A B C] rear
+dequeue -> A: front [B C] rear
+enqueue D: front [B C D] rear
+dequeue -> B: front [C D] rear

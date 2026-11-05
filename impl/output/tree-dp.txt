@@ -1,0 +1,2 @@
+take root: 15 skip root: 21
+max independent set weight = 21

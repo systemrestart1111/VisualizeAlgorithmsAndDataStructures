@@ -1,0 +1,2 @@
+order: A B C D E F G H
+dist: A=0 B=1 C=1 D=2 E=2 F=2 G=3 H=3

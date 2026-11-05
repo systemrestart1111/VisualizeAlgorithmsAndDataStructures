@@ -1,0 +1,8 @@
+SP freq=1 code=1110
+A freq=8 code=0
+B freq=3 code=110
+C freq=1 code=1010
+D freq=1 code=1011
+N freq=2 code=100
+R freq=2 code=1111
+total bits = 43 (fixed 8-bit: 144)

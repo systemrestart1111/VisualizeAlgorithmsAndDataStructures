@@ -1,0 +1,6 @@
+phases = 1 matching size = 5
+L1 - R1
+L2 - R3
+L3 - R2
+L4 - R4
+L5 - R5

@@ -1,0 +1,4 @@
+B=4,8: cross =   32 -> left (counter-clockwise)
+B=9,1: cross =  -20 -> right (clockwise)
+B=5,3: cross =    0 -> collinear
+B=11,5: cross =    0 -> collinear

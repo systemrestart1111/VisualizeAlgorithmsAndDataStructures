@@ -1,0 +1,8 @@
+S -> A -> C -> D -> B -> T (+2)
+S -> A -> B -> D -> T (+2)
+S -> A -> B -> T (+2)
+S -> A -> D -> B -> T (+4)
+S -> C -> A -> D -> B -> T (+2)
+S -> C -> D -> T (+7)
+max flow = 19
+min cut S-side: S C

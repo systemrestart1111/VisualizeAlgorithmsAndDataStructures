@@ -1,0 +1,3 @@
+17^-1 mod 43 = 38
+check: 17 x 38 mod 43 = 1
+Fermat (m is prime): 17^(43-2) mod 43 = 38

@@ -1,0 +1,1 @@
+entry = 6 cycle length = 6

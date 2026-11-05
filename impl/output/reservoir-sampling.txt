@@ -1,0 +1,6 @@
+item 89 replaces slot 2 (7)
+item 21 replaces slot 3 (33)
+item 64 replaces slot 3 (21)
+item 58 replaces slot 2 (89)
+item 76 replaces slot 2 (58)
+sample: 12 45 76 64

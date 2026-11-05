@@ -1,0 +1,2 @@
+min coins = 3 -> 3 3 4
+ways = 8

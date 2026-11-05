@@ -1,0 +1,11 @@
+insert 22 -> slot  0   [22 . . . . . . . . . .]
+insert  1 -> slot  1   [22 1 . . . . . . . . .]
+insert 13 -> slot  2   [22 1 13 . . . . . . . .]
+insert 11 -> slot  3   [22 1 13 11 . . . . . . .]
+insert 24 -> slot  4   [22 1 13 11 24 . . . . . .]
+insert 33 -> slot  5   [22 1 13 11 24 33 . . . . .]
+insert 18 -> slot  7   [22 1 13 11 24 33 . 18 . . .]
+search 33 -> (slot, probes) = (5, 6)
+delete 13 -> True   [22 1 X 11 24 33 . 18 . . .]
+search 24 -> (slot, probes) = (4, 3) (passes the tombstone)
+insert 35 -> slot  2   [22 1 35 11 24 33 . 18 . . .] (reuses the tombstone)

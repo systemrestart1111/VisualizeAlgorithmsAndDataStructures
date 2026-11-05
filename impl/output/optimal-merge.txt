@@ -1,0 +1,6 @@
+merge 5 + 10 = 15
+merge 15 + 15 = 30
+merge 20 + 30 = 50
+merge 30 + 30 = 60
+merge 50 + 60 = 110
+total cost = 265

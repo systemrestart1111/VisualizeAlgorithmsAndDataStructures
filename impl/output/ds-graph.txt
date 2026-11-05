@@ -1,0 +1,28 @@
+matrix:    A  B  C  D  E
+        A  0  4  2  0  0
+        B  4  0  0  5  0
+        C  2  0  0  8  0
+        D  0  5  8  0  3
+        E  0  0  0  3  0
+list:
+  A -> B(4) C(2)
+  B -> A(4) D(5)
+  C -> A(2) D(8)
+  D -> B(5) C(8) E(3)
+  E -> D(3)
+add edge A-E (6)
+remove edge C-D
+matrix:    A  B  C  D  E
+        A  0  4  2  0  6
+        B  4  0  0  5  0
+        C  2  0  0  0  0
+        D  0  5  0  0  3
+        E  6  0  0  3  0
+list:
+  A -> B(4) C(2) E(6)
+  B -> A(4) D(5)
+  C -> A(2)
+  D -> B(5) E(3)
+  E -> D(3) A(6)
+BFS from A: A B C E D
+DFS from A: A B D E C

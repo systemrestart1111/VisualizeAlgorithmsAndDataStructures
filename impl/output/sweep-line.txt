@@ -1,0 +1,8 @@
+x in [1, 2): covered y = 4, area += 4
+x in [2, 3): covered y = 8, area += 8
+x in [3, 5): covered y = 9, area += 18
+x in [5, 6): covered y = 7, area += 7
+x in [6, 7): covered y = 5, area += 5
+x in [7, 9): covered y = 7, area += 14
+x in [9, 11): covered y = 3, area += 6
+union area = 62

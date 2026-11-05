@@ -1,0 +1,6 @@
+bucket 0: 3 6 9 12
+bucket 1: 17 21
+bucket 2: 25 29
+bucket 3: 33 37
+bucket 4: 41 43 48 49
+sorted: 3 6 9 12 17 21 25 29 33 37 41 43 48 49

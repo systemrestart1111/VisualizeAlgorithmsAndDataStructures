@@ -1,0 +1,9 @@
+append 10: [10] size=1 cap=1
+append 20: [10 20] size=2 cap=2
+append 30: [10 20 30] size=3 cap=4
+append 40: [10 20 30 40] size=4 cap=4
+append 50: [10 20 30 40 50] size=5 cap=8
+pop -> 50: [10 20 30 40] size=4 cap=8
+pop -> 40: [10 20 30] size=3 cap=8
+pop -> 30: [10 20] size=2 cap=4
+pop -> 20: [10] size=1 cap=2
