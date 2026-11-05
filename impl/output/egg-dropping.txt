@@ -1,0 +1,6 @@
+2 eggs, 36 floors: 8 drops
+1 eggs, 10 floors: 10 drops
+3 eggs, 100 floors: 9 drops
+2 eggs, 0 floors: 0 drops
+2 eggs, 100 floors: 14 drops
+4 eggs, 5000 floors: 19 drops

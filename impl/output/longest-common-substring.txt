@@ -1,0 +1,3 @@
+ABABCABA / BABCAACB: substring 'BABCA' (5), subsequence length 6
+ABCDXYZ / XYZABCD: substring 'ABCD' (4), subsequence length 4
+ABC / DEF: substring '' (0), subsequence length 0

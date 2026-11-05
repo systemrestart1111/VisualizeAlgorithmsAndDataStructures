@@ -1,0 +1,14 @@
+with replacement
+  P(RR) = 9/25
+  P(RB) = 6/25
+  P(BR) = 6/25
+  P(BB) = 4/25
+  P(2nd R) = 3/5, P(2nd R | 1st R) = 3/5, independent = True
+  E[#red] = 6/5
+without replacement
+  P(RR) = 3/10
+  P(RB) = 3/10
+  P(BR) = 3/10
+  P(BB) = 1/10
+  P(2nd R) = 3/5, P(2nd R | 1st R) = 1/2, independent = False
+  E[#red] = 6/5

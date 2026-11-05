@@ -1,0 +1,3 @@
+A -> J: depth 3, path A -> C -> F -> J, visits per limit [1, 3, 7, 11], total 22
+A -> H: depth 3, path A -> B -> D -> H, visits per limit [1, 3, 7, 4], total 15
+A -> A: depth 0, path A, visits per limit [1], total 1

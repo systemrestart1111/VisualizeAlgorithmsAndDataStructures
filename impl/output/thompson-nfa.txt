@@ -1,0 +1,3 @@
+(a|b)*abb: 14 states, 16 transitions; abb=Y aabb=Y babb=Y ab=N ε=N abab=N
+a(b|c)*: 10 states, 12 transitions; a=Y abcb=Y b=N ac=Y
+(ab)+c?: 10 states, 11 transitions; ab=Y ababc=Y c=N abcc=N

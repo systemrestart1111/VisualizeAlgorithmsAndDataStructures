@@ -1,0 +1,2 @@
+min expected cost: 275
+root: 20 | preorder: 20 10 50 40 30

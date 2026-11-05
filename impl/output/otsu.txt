@@ -1,0 +1,4 @@
+shapes: t = 90, between-class variance 3335.574, foreground 74 pixels
+lowcontrast: t = 104, between-class variance 157.643, foreground 95 pixels
+step: t = 100, between-class variance 4225.000, foreground 128 pixels
+flat: single gray level, t = 120, all background

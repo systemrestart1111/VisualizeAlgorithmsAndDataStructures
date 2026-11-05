@@ -1,0 +1,4 @@
+checker, quality 0.1, min distance 3: 172 candidates, 21 chosen: (4,4) (4,7) (4,11) (7,4) (7,7) (7,11) (11,4) (11,7) (11,11) (1,1) (1,14) (14,1) (14,14) (1,5) (1,9) (5,1) (5,14) (9,1) (9,14) (14,5) (14,9)
+checker, quality 0.1, min distance 5: 172 candidates, 5 chosen: (4,4) (4,11) (8,7) (11,11) (12,3)
+checker, quality 0.3, min distance 3: 144 candidates, 9 chosen: (4,4) (4,7) (4,11) (7,4) (7,7) (7,11) (11,4) (11,7) (11,11)
+shapes, quality 0.1, min distance 3: 118 candidates, 11 chosen: (6,7) (6,2) (2,2) (2,7) (6,10) (10,7) (10,14) (14,11) (14,6) (9,1) (14,1)

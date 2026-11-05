@@ -1,0 +1,5 @@
+'aabbcbbdd': 2 cuts aa | bbcbb | dd
+'aab': 1 cuts aa | b
+'racecar': 0 cuts racecar
+'abcde': 4 cuts a | b | c | d | e
+'': 0 cuts

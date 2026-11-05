@@ -1,0 +1,10 @@
+rho(8051): c=1 steps=3 d=97
+rho(25): c=1 steps=3 d=25 (failed, retry); c=2 steps=2 d=5
+1 = 1 (product ok True)
+8051 = 83 * 97 (product ok True)
+201275 = 5 * 5 * 83 * 97 (product ok True)
+10403 = 101 * 103 (product ok True)
+1022117 = 1009 * 1013 (product ok True)
+1000003 = 1000003 (product ok True)
+600851475143 = 71 * 839 * 1471 * 6857 (product ok True)
+999985999949 = 999983 * 1000003 (product ok True)

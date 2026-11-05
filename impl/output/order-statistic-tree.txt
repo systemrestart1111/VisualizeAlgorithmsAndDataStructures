@@ -1,0 +1,5 @@
+select 1..n: 1 5 10 12 15 20 25 30 35 40
+rank 13 = 5 | rank 26 = 8 | rank 0 = 1
+root: 20 size 10 height 4
+after delete 20, 5: 1 10 12 15 25 30 35 40
+select 4 = 15 | rank 30 = 6

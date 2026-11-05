@@ -1,0 +1,3 @@
+MST weight: 14 edges: BC BD AC EF CE
+allow equal second best: 15
+strict second best: 15

@@ -1,0 +1,6 @@
+lowcontrast, 2x2 tiles, clip 8: limit 2, totals preserved True, seam without/with interpolation 368/236, output sum 61647
+lowcontrast, 4x4 tiles, clip 4: limit 1, totals preserved True, seam without/with interpolation 400/501, output sum 63075
+lowcontrast, 2x2 tiles, clip 32: limit 8, totals preserved True, seam without/with interpolation 1120/762, output sum 53491
+shapes, 2x2 tiles, clip 8: limit 2, totals preserved True, seam without/with interpolation 1612/1606, output sum 45139
+shapes, 4x4 tiles, clip 4: limit 1, totals preserved True, seam without/with interpolation 400/295, output sum 63409
+shapes, 2x2 tiles, clip 32: limit 8, totals preserved True, seam without/with interpolation 1300/1280, output sum 48936

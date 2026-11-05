@@ -1,0 +1,4 @@
+[12, 35, 1, 10, 34, 35, 1] distinct: 34 rank: 35
+[5, 5, 3] distinct: 3 rank: 5
+[7, 7, 7] distinct: none rank: 7
+[4] distinct: none rank: none

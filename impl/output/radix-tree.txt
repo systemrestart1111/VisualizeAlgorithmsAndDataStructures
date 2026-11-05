@@ -1,0 +1,23 @@
+r
+  om*
+    an
+      e*
+      us*
+    ulus*
+  ub
+    e
+      ns*
+      r*
+    ic
+      on*
+      undus*
+search rom: True
+search romane: True
+search rub: False
+search roman: False
+prefix r: 8
+prefix rom: 4
+prefix rub: 4
+prefix rubi: 2
+prefix ru: 4
+prefix x: 0

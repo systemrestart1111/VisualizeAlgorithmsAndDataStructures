@@ -1,0 +1,4 @@
+'pineapplepenapple': 3 ways, e.g. pine applepen apple
+'catsanddog': 2 ways, e.g. cat sand dog
+'catsandog': 0 ways
+'': 1 ways

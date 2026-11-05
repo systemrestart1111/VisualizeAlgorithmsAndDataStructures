@@ -1,0 +1,9 @@
+phi(1) = 1 (gcd count 1)
+phi(2) = 1 (gcd count 1)
+phi(36) = 12 (gcd count 12)
+phi(97) = 96 (gcd count 96)
+phi(100) = 40 (gcd count 40)
+phi(360) = 96 (gcd count 96)
+phi(1000000) = 400000
+phi(999999937) = 999999936
+phi(600851475143) = 591194251200

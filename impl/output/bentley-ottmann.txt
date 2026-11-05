@@ -1,0 +1,15 @@
+7 intersections (brute force agrees True)
+  (4.111, 4.333): segments 0 1
+  (5.000, 5.000): segments 0 4
+  (5.727, 2.948): segments 1 2
+  (6.412, 6.059): segments 0 3
+  (8.000, 5.000): segments 3 4
+  (8.310, 4.793): segments 2 3
+  (8.600, 5.000): segments 2 4
+2 intersections (brute force agrees True)
+  (2.000, 8.000): segments 1 3
+  (5.000, 5.000): segments 0 1 2
+3 intersections (brute force agrees True)
+  (4.000, 4.000): segments 0 2
+  (5.000, 5.000): segments 0 1
+  (6.000, 4.000): segments 1 2

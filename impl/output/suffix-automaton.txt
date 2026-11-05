@@ -1,0 +1,4 @@
+abcbcabc: states 11, distinct substrings 27 (brute 27)
+banana: states 10, distinct substrings 15 (brute 15)
+aaaa: states 5, distinct substrings 4 (brute 4)
+abcd: states 5, distinct substrings 10 (brute 10)

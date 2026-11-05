@@ -1,0 +1,2 @@
+36 edge points, threshold 8: theta 90, rho 4, votes 14; theta 45, rho 11, votes 15; theta 0, rho 12, votes 11
+36 edge points, threshold 12: theta 90, rho 4, votes 14; theta 45, rho 11, votes 15

@@ -1,0 +1,13 @@
+node  1: level 2, centroid parent 2
+node  2: level 1, centroid parent 4
+node  3: level 2, centroid parent 2
+node  4: level 0, centroid parent -
+node  5: level 2, centroid parent 6
+node  6: level 1, centroid parent 4
+node  7: level 2, centroid parent 6
+node  8: level 2, centroid parent 9
+node  9: level 1, centroid parent 4
+node 10: level 2, centroid parent 9
+node 11: level 2, centroid parent 2
+node 12: level 2, centroid parent 6
+depth: 3

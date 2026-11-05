@@ -1,0 +1,4 @@
+K^-1 = [[15, 17], [20, 9]]
+cipher: HIATWS
+plain : HELPME
+key [[2,4],[6,8]] invertible: False

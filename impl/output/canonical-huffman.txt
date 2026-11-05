@@ -1,0 +1,11 @@
+'a' len 1 code 0
+'b' len 4 code 1000
+'d' len 4 code 1001
+'k' len 4 code 1010
+'l' len 4 code 1011
+'m' len 4 code 1100
+'r' len 4 code 1101
+'z' len 4 code 1110
+' ' len 5 code 11110
+'c' len 5 code 11111
+bits 55, decoded ok True

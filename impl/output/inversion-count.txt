@@ -1,0 +1,4 @@
+[8, 4, 2, 1, 7, 3, 5, 3] inversions: 16 brute: 16
+[1, 2, 3] inversions: 0 brute: 0
+[3, 3, 3] inversions: 0 brute: 0
+[5, 4, 3, 2, 1] inversions: 10 brute: 10

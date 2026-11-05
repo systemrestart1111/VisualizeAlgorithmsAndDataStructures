@@ -1,0 +1,9 @@
+0 0 5 8 0 0 0 2
+0 0 6 0 0 5 4 0
+5 8 0 0 0 2 0 0
+apple: estimate 5, true 5, ok True
+banana: estimate 2, true 2, ok True
+cherry: estimate 6, true 3, ok True
+grape: estimate 6, true 1, ok True
+lemon: estimate 4, true 4, ok True
+kiwi: estimate 0, true 0, ok True

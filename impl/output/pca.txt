@@ -1,0 +1,4 @@
+original, centered: cov [4.369 2.300; 2.300 1.373], eigenvalues 5.616 0.126 (sum 5.742 = trace 5.742), PC1 (0.879, 0.477) explains 97.80%, first projections -3.921 -2.573
+original, standardized: cov [1.000 0.939; 0.939 1.000], eigenvalues 1.939 0.061 (sum 2.000 = trace 2.000), PC1 (0.707, 0.707) explains 96.95%, first projections -2.307 -1.452
+x scaled by 10, centered: cov [436.900 23.000; 23.000 1.373], eigenvalues 438.111 0.162 (sum 438.273 = trace 438.273), PC1 (0.999, 0.053) explains 99.96%, first projections -34.352 -23.326
+x scaled by 10, standardized: cov [1.000 0.939; 0.939 1.000], eigenvalues 1.939 0.061 (sum 2.000 = trace 2.000), PC1 (0.707, 0.707) explains 96.95%, first projections -2.307 -1.452

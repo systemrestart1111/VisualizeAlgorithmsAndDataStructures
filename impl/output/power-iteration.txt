@@ -1,0 +1,4 @@
+lambda = 3.618034, x = (0.525731, 0.850651), steps 25
+lambda = 3.000000, x = (0.000000, 0.000000, 1.000000), steps 56
+lambda = 5.000000, x = (0.707107, 0.707107), steps 1
+no convergence in 60 steps (|lambda1| = |lambda2|?)

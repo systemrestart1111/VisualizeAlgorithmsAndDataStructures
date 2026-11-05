@@ -1,0 +1,16 @@
+insert 20
+insert 50
+insert 53
+insert 75
+insert 100
+insert 67
+insert 105
+insert 3
+insert 36
+insert 39
+insert 6
+  rehash -> N = 13
+T1: 39 53 67 3 . . 6 20 . 100 36 50 .
+T2: . . . . . 75 . . 105 . . . .
+find 36: True | find 37: False
+after delete 36, find 36: False

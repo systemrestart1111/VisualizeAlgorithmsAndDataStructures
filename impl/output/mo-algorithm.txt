@@ -1,0 +1,7 @@
+distinct[0, 4] = 3 (brute 3)
+distinct[2, 7] = 4 (brute 4)
+distinct[5, 11] = 5 (brute 5)
+distinct[1, 3] = 3 (brute 3)
+distinct[6, 9] = 4 (brute 4)
+distinct[0, 11] = 5 (brute 5)
+pointer moves: 29

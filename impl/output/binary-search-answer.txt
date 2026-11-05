@@ -1,0 +1,5 @@
+h = 6: min speed = 23
+h = 5: min speed = 30
+h = 10: min speed = 11
+h = 100: min speed = 1
+h = 4: min speed = impossible

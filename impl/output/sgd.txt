@@ -1,0 +1,3 @@
+lr 0.01, 15 epochs: SGD w = 2.1073, b = 0.4972, MSE 1.3408; batch GD w = 2.1055, b = 0.3453, MSE 1.3309
+lr 0.002, 15 epochs: SGD w = 2.1087, b = 0.3497, MSE 1.3310; batch GD w = 1.8448, b = 0.2913, MSE 3.6247
+lr 0.03, 15 epochs: SGD diverged at epoch 11; batch GD w = 2.9901, b = 0.5137, MSE 27.5711

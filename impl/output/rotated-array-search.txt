@@ -1,0 +1,5 @@
+find 12: 7
+find 45: 0
+find 38: 11
+find 50: -1
+duplicates find 3: 3

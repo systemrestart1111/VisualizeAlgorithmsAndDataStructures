@@ -1,0 +1,2 @@
+min sum of squares: 682 | naive: 682
+transitions evaluated: 108 vs 234

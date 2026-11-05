@@ -1,0 +1,4 @@
+bananaaa: 1 1 13 1 1 1 0 0 -> bananaaa
+aaabbbccc: 0 0 0 1 0 0 2 0 0 -> aaabbbccc
+abcabcabc: 0 1 2 2 2 2 2 2 2 -> abcabcabc
+annb: 0 13 0 2 -> annb

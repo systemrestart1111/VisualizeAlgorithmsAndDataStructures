@@ -105,7 +105,22 @@ export interface TextPanel extends PanelBase {
   lines: string[];
 }
 
-export type Panel = BarsPanel | TablePanel | GraphPanel | PlotPanel | VarsPanel | TextPanel;
+/** 影像／熱度圖：每格依數值上色（灰階、正負雙色或標籤色），可疊加外框與標記點 */
+export interface ImagePanel extends PanelBase {
+  type: 'image';
+  px: number[][];
+  /** 數值對應範圍，預設 [0, 255] */
+  range?: [number, number];
+  palette?: 'gray' | 'signed' | 'label' | 'heat';
+  /** 外框顏色，key 為 "r,c" */
+  colors?: Record<string, Color | undefined>;
+  marks?: { r: number; c: number; color?: Color }[];
+  /** 顯示每格數值 */
+  vals?: boolean;
+  cell?: number;
+}
+
+export type Panel = BarsPanel | TablePanel | GraphPanel | PlotPanel | VarsPanel | TextPanel | ImagePanel;
 
 export interface Frame {
   msg: string;

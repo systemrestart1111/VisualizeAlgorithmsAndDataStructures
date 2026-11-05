@@ -1,0 +1,2 @@
+cuts per trial: 3 1 1 1 1 1
+best: 1 | brute force: 1

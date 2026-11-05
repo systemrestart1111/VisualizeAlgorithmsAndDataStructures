@@ -1,0 +1,6 @@
+x^3-2x-5, x0 = 1, x1 = 3: root 2.0945514815 after 9 steps
+cos x - x, x0 = 0, x1 = 1: root 0.7390851332 after 6 steps
+x^2-2, x0 = 1, x1 = 2: root 1.4142135624 after 7 steps
+x^2-2, x0 = -1, x1 = 1: flat secant (f(x0) = f(x1)), stop
+atan x, x0 = 1, x1 = 2: root 0.0000000000 after 7 steps
+atan x, x0 = 3, x1 = 5: diverged after 7 steps

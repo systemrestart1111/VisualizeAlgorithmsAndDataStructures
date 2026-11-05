@@ -1,0 +1,6 @@
+noisy blobs, 4-connected: 6 components (10 provisional labels), sizes [89, 14, 1, 1, 1, 1], matches BFS True
+noisy blobs, 8-connected: 6 components (8 provisional labels), sizes [89, 14, 1, 1, 1, 1], matches BFS True
+blobs, 4-connected: 2 components (3 provisional labels), sizes [92, 12], matches BFS True
+blobs, 8-connected: 2 components (3 provisional labels), sizes [92, 12], matches BFS True
+diagonal dots, 4-connected: 45 components (45 provisional labels), sizes [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], matches BFS True
+diagonal dots, 8-connected: 28 components (30 provisional labels), sizes [18, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], matches BFS True

@@ -1,0 +1,3 @@
+cipher: IHHWVC SWFRCP
+plain : AFFINE CIPHER
+a=13 rejected

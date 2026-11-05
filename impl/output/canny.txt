@@ -1,0 +1,6 @@
+shapes, low 0.15 high 0.4: strong 46, weak 16, promoted 1, dropped 15, edge pixels 47
+shapes, low 0.1 high 0.3: strong 56, weak 6, promoted 6, dropped 0, edge pixels 62
+noisy, low 0.15 high 0.4: strong 55, weak 19, promoted 2, dropped 17, edge pixels 57
+noisy, low 0.1 high 0.3: strong 62, weak 14, promoted 11, dropped 3, edge pixels 73
+step, low 0.15 high 0.4: strong 32, weak 24, promoted 0, dropped 24, edge pixels 32
+step, low 0.1 high 0.3: strong 36, weak 20, promoted 20, dropped 0, edge pixels 56

@@ -1,0 +1,4 @@
+6-gon, area 40.583: (0.000, 0.000) (4.000, 0.000) (7.000, 1.500) (7.000, 3.000) (1.333, 8.667) (0.000, 6.000)
+empty intersection
+3-gon, area 16.000: (-1.000, -3.000) (3.000, 1.000) (-1.000, 5.000)
+unbounded: clipped by the bounding box (4 vertices)

@@ -1,0 +1,4 @@
+cipher: WECRERDSOEEAIVD
+plain : WEAREDISCOVERED
+1 rail: HELLO
+short : AB AB

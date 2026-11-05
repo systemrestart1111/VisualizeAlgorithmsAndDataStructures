@@ -1,0 +1,5 @@
+least squares on all 30 points: y = 0.428x + 3.326
+seed 42, 20 iterations, threshold 0.5: 20 inliers (20 true), refit y = 0.609x + 1.941
+seed 1, 5 iterations, threshold 0.5: 19 inliers (19 true), refit y = 0.618x + 1.913
+seed 2024, 50 iterations, threshold 0.3: 18 inliers (18 true), refit y = 0.622x + 1.881
+seed 42, 20 iterations, threshold 1.0: 21 inliers (20 true), refit y = 0.631x + 1.881

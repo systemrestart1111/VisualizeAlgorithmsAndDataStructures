@@ -1,0 +1,5 @@
+encrypt k=3: Khoor, Zruog! ABC
+decrypt   : Hello, World! XYZ
+k=0: Hello, World! XYZ
+k=25: Gdkkn, Vnqkc! WXY
+k=26: Hello, World! XYZ

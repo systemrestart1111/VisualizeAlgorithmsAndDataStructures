@@ -1,0 +1,4 @@
+n = 5: estimate 3.32, registers 0 0 0 0 1 0 0 0 0 3 0 0 0 0 4 0
+n = 50: estimate 33.27, registers 8 0 0 1 2 2 3 2 3 3 2 4 3 1 4 2
+n = 1000: estimate 820.57, registers 10 6 6 8 9 7 6 9 6 6 6 6 4 9 6 8
+n = 20000: estimate 20491.95, registers 11 14 12 15 10 10 12 12 11 9 16 11 10 11 11 12

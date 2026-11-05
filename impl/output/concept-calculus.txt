@@ -1,0 +1,8 @@
+exact f'(1.0) = 2.000000
+h = 1.00000  forward = 3.000000  central = 2.000000  error = 1.000000
+h = 0.50000  forward = 2.500000  central = 2.000000  error = 0.500000
+h = 0.25000  forward = 2.250000  central = 2.000000  error = 0.250000
+h = 0.12500  forward = 2.125000  central = 2.000000  error = 0.125000
+h = 0.06250  forward = 2.062500  central = 2.000000  error = 0.062500
+h = 0.03125  forward = 2.031250  central = 2.000000  error = 0.031250
+grad g(1,1) analytic = (2.000, 4.000), numeric = (2.000, 4.000)

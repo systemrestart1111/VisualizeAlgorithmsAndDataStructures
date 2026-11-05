@@ -1,0 +1,2 @@
+best total: 26 chosen: [2,9)w20 [9,12)w6
+earliest-finish greedy: 14

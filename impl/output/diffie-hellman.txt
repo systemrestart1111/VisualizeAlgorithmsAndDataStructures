@@ -1,0 +1,3 @@
+public: p=23 g=5 A=8 B=19
+Alice shared = 2, Bob shared = 2, equal = True
+p=2147483647: A=510444705 B=1018773341 shared=366175671 366175671

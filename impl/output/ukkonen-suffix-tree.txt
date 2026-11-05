@@ -1,0 +1,4 @@
+banana$: leaves 7, suffix array [6, 5, 3, 1, 0, 4, 2], matches naive True
+abcabxabcd$: leaves 11, suffix array [10, 0, 6, 3, 1, 7, 4, 2, 8, 9, 5], matches naive True
+mississippi$: leaves 12, suffix array [11, 10, 7, 4, 1, 0, 9, 8, 6, 3, 5, 2], matches naive True
+aaaa$: leaves 5, suffix array [4, 3, 2, 1, 0], matches naive True

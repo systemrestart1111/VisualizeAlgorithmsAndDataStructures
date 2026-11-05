@@ -1,0 +1,17 @@
+sin x on [0, pi], n = 2: simpson 2.0943951024 (err 0.0943951024), trapezoid err 0.4292036732
+sin x on [0, pi], n = 6: simpson 2.0008631897 (err 0.0008631897), trapezoid err 0.0459027667
+sin x on [0, pi], n = 12: simpson 2.0000526243 (err 0.0000526243), trapezoid err 0.0114362234
+sin x on [0, pi], n = 24: simpson 2.0000032689 (err 0.0000032689), trapezoid err 0.0028566042
+4/(1+x^2) on [0, 1], n = 2: simpson 3.1333333333 (err 0.0082593203), trapezoid err 0.0415926536
+4/(1+x^2) on [0, 1], n = 6: simpson 3.1415917809 (err 0.0000008727), trapezoid err 0.0046295871
+4/(1+x^2) on [0, 1], n = 12: simpson 3.1415926403 (err 0.0000000133), trapezoid err 0.0011574067
+4/(1+x^2) on [0, 1], n = 24: simpson 3.1415926534 (err 0.0000000002), trapezoid err 0.0002893518
+x^3-2x+1 on [0, 2], n = 2: simpson 2.0000000000 (err 0.0000000000), trapezoid err 1.0000000000
+x^3-2x+1 on [0, 2], n = 6: simpson 2.0000000000 (err 0.0000000000), trapezoid err 0.1111111111
+x^3-2x+1 on [0, 2], n = 12: simpson 2.0000000000 (err 0.0000000000), trapezoid err 0.0277777778
+x^3-2x+1 on [0, 2], n = 24: simpson 2.0000000000 (err 0.0000000000), trapezoid err 0.0069444444
+sqrt x on [0, 1], n = 2: simpson 0.6380711875 (err 0.0285954792), trapezoid err 0.0631132761
+sqrt x on [0, 1], n = 6: simpson 0.6611443169 (err 0.0055223498), trapezoid err 0.0129878582
+sqrt x on [0, 1], n = 12: simpson 0.6647137680 (err 0.0019528987), trapezoid err 0.0047116386
+sqrt x on [0, 1], n = 24: simpson 0.6659761837 (err 0.0006904830), trapezoid err 0.0016957719
+n = 5: n must be even

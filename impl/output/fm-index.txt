@@ -1,0 +1,6 @@
+'a': 5 at [0, 3, 5, 7, 10] (brute [0, 3, 5, 7, 10])
+'abra': 2 at [0, 7] (brute [0, 7])
+'cad': 1 at [4] (brute [4])
+'ra': 2 at [2, 9] (brute [2, 9])
+'xyz': 0 at [] (brute [])
+'abracadabra': 1 at [0] (brute [0])

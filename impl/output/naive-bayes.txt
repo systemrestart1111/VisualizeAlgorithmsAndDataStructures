@@ -1,0 +1,8 @@
+'free lunch meeting', alpha 1: spam -9.609, ham -9.105 -> ham
+'free lunch meeting', alpha 0: spam -inf, ham -inf -> undecidable
+'win cheap money', alpha 1: spam -8.510, ham -10.897 -> spam
+'win cheap money', alpha 0: spam -7.917, ham -inf -> spam
+'project notes tomorrow', alpha 1: spam -10.995, ham -8.412 -> ham
+'project notes tomorrow', alpha 0: spam -inf, ham -7.695 -> ham
+'free coffee now', alpha 1: spam -8.510, ham -10.897 -> spam
+'free coffee now', alpha 0: spam -inf, ham -inf -> undecidable

@@ -1,0 +1,4 @@
+blobs, L1: max distance 4, pixels per distance [46, 28, 22, 8], matches brute force True
+blobs, Linf: max distance 3, pixels per distance [54, 36, 14], matches brute force True
+shapes, L1: max distance 4, pixels per distance [38, 22, 10, 4], matches brute force True
+shapes, Linf: max distance 3, pixels per distance [46, 22, 6], matches brute force True

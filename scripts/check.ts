@@ -26,7 +26,7 @@ for (const it of ITEMS) {
           if (!f.length) throw new Error('沒有畫格');
           if (f.length > 6000) console.log(`  ⚠ ${it.id} 畫格過多 ${f.length}`);
           for (const fr of f) if (it.code && fr.line !== undefined && (fr.line < 1 || fr.line > it.code.length)) throw new Error('line 超出範圍 ' + fr.line);
-          if (it.cat.startsWith('sort')) {
+          if (it.cat.startsWith('sort') && Array.isArray(inp.arr)) {
             const b = f[f.length - 1].panels.find((p: any) => p.type === 'bars') as any;
             const v: number[] = b.values;
             const src = (inp.arr as number[]).slice().sort((x, y) => x - y);

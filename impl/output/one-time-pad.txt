@@ -1,0 +1,6 @@
+key : 761795a7b2c55faa09f5c1
+c1  : 3e52d9ebfde508e55bb985
+back: HELLO WORLD
+c1^c2: 1b000f1e0a74771f1e0d0a
+m1^m2: 1b000f1e0a74771f1e0d0a
+key reuse leaks m1^m2: True

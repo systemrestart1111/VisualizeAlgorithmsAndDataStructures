@@ -1,0 +1,4 @@
+version 0: sum[0,7] = 25, sum[2,5] = 16
+version 1: sum[0,7] = 29, sum[2,5] = 20
+version 2: sum[0,7] = 23, sum[2,5] = 14
+total nodes: 23 (15 + 4 + 4)

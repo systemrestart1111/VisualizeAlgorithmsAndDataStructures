@@ -1,0 +1,2 @@
+blob distance: 3 regions, sizes [115, 102, 39], watershed boundary pixels 25
+two basins: 2 regions, sizes [136, 120], watershed boundary pixels 16

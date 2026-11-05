@@ -1,0 +1,4 @@
+signed area 38.0 (counter-clockwise), area 38.0, Pick: B = 12, I = 33
+signed area -38.0 (clockwise), area 38.0, Pick: B = 12, I = 33
+signed area 18.0 (counter-clockwise), area 18.0, Pick: B = 16, I = 11
+signed area 0.0, but polygon is not simple: result is not its area

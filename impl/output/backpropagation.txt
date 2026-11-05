@@ -1,0 +1,6 @@
+seed 3: initial loss 0.507839, gradient check max relative error < 1e-6: True
+  lr 2.0, 2000 epochs: loss 0.000838, predictions 0.019 0.979 0.979 0.020, all correct True
+seed 1: initial loss 0.536599, gradient check max relative error < 1e-6: True
+  lr 2.0, 2000 epochs: loss 0.001594, predictions 0.030 0.974 0.974 0.031, all correct True
+seed 3: initial loss 0.507839, gradient check max relative error < 1e-6: True
+  lr 0.5, 2000 epochs: loss 0.010194, predictions 0.060 0.926 0.926 0.076, all correct True

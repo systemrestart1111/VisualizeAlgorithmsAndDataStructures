@@ -1,0 +1,4 @@
+banana: bwt annb$aa, inverse banana
+abracadabra: bwt ard$rcaaaabb, inverse abracadabra
+mississippi: bwt ipssm$pissii, inverse mississippi
+aaaa: bwt aaaa$, inverse aaaa

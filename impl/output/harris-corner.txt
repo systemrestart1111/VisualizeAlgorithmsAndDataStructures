@@ -1,0 +1,4 @@
+checker, k = 0.04: max R = 4860490, edge pixels 48, 9 corners: (4,4) (4,7) (4,11) (7,4) (7,7) (7,11) (11,4) (11,7) (11,11)
+checker, k = 0.06: max R = 4397418, edge pixels 72, 9 corners: (4,4) (4,7) (4,11) (7,4) (7,7) (7,11) (11,4) (11,7) (11,11)
+shapes, k = 0.04: max R = 4395885, edge pixels 8, 4 corners: (2,2) (2,7) (6,2) (6,7)
+shapes, k = 0.06: max R = 3898517, edge pixels 15, 4 corners: (2,2) (2,7) (6,2) (6,7)

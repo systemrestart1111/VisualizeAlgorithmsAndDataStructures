@@ -1,0 +1,11 @@
+bits: 10100000010101000010000101100000
+apple: maybe
+banana: maybe
+cherry: maybe
+grape: maybe
+kiwi: no
+lemon: no
+mango: no
+peach: no
+plum: no
+fig: no

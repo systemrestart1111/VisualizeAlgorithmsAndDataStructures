@@ -1,0 +1,5 @@
+root: (45, 60) | left: (30, 40) | right: (90, 55)
+nearest to (52, 52): (45, 60) dist 10.63 visited 8/11 brute 10.63
+nearest to (12, 20): (10, 12) dist 8.25 visited 4/11 brute 8.25
+nearest to (95, 95): (70, 70) dist 35.36 visited 4/11 brute 35.36
+nearest to (0, 100): (20, 75) dist 32.02 visited 4/11 brute 32.02

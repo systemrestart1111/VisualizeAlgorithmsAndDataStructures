@@ -1,0 +1,8 @@
+shapes seam 1: cost 1200, columns 0 0 0 0 0 0 0 0 1 1 1 2 2 2 1 0, connected True
+shapes seam 2: cost 1320, columns 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 13, connected True
+shapes seam 3: cost 1660, columns 8 8 8 8 8 8 8 7 8 8 8 8 8 7 6 7, connected True
+shapes: width now 13, pixel sum 16420
+step seam 1: cost 320, columns 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, connected True
+step seam 2: cost 320, columns 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, connected True
+step seam 3: cost 320, columns 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0, connected True
+step: width now 13, pixel sum 31720

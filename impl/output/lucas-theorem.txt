@@ -1,0 +1,9 @@
+C(1000,300) mod 13 = 10 (pascal 10)
+C(5,2) mod 3 = 1 (pascal 1)
+C(100,50) mod 7 = 4 (pascal 4)
+C(10,3) mod 2 = 0 (pascal 0)
+C(7,9) mod 5 = 0 (pascal 0)
+C(999,0) mod 11 = 1 (pascal 1)
+C(1000000000000,123456789) mod 99991 = 0
+C(1000000000000000,100000000000000) mod 7 = 0
+C(6,2) mod 4: 4 is not prime

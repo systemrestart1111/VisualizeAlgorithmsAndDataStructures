@@ -1,4 +1,4 @@
-import type { BarsPanel, CMap, Color, Frame, Panel, Pointer, TablePanel, TextPanel, VarsPanel, InputSpec } from './types';
+import type { BarsPanel, CMap, Color, Frame, ImagePanel, Panel, Pointer, TablePanel, TextPanel, VarsPanel, InputSpec } from './types';
 
 /** 畫格記錄器：snap 時深拷貝 panel，避免之後的修改影響已記錄的畫格 */
 export class Rec {
@@ -70,6 +70,11 @@ export function text(lines: string[], title?: string, w?: 'full' | 'half' | 'aut
   return { type: 'text', title, lines, w };
 }
 
+/** 影像面板；o.colors 的 key 為 "r,c" */
+export function img(px: number[][], o: Partial<Omit<ImagePanel, 'type' | 'px'>> = {}): ImagePanel {
+  return { type: 'image', px, ...o };
+}
+
 export function range(lo: number, hi: number, color: Color, base: CMap = {}): CMap {
   const m: CMap = { ...base };
   for (let i = lo; i <= hi; i++) m[i] = color;
@@ -138,7 +143,7 @@ export const inNum = (key: string, label: string, def: number, min?: number, max
   max,
   random,
 });
-export const inText = (key: string, label: string, def: string, random?: () => string, multiline = false): InputSpec => ({
+export const inText = (key: string, label: string, def: string, random?: (cur: Record<string, any>) => string, multiline = false): InputSpec => ({
   key,
   label,
   type: 'text',

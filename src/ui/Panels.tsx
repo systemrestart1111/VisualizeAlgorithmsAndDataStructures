@@ -1,5 +1,5 @@
 import React from 'react';
-import type { BarsPanel, Color, GEdge, GNode, GraphPanel, Panel, PlotPanel, TablePanel, TextPanel, VarsPanel } from '../core/types';
+import type { BarsPanel, Color, GEdge, GNode, GraphPanel, ImagePanel, Panel, PlotPanel, TablePanel, TextPanel, VarsPanel } from '../core/types';
 
 const cv = (c?: Color) => (c && c !== 'default' ? `var(--c-${c})` : undefined);
 const soft = (c?: Color) => (c && c !== 'default' ? `color-mix(in srgb, var(--c-${c}) 38%, transparent)` : undefined);
@@ -321,6 +321,58 @@ function PlotView({ p }: { p: PlotPanel }) {
   );
 }
 
+const LABEL_COLORS: Color[] = ['active', 'swap', 'done', 'special', 'frontier', 'compare', 'visited', 'path', 'bad', 'good'];
+
+/** 依調色盤把數值轉成填色；回傳 [填色, 是否為深色] */
+function pxFill(v: number, p: ImagePanel): [string, boolean] {
+  const [lo, hi] = p.range ?? [0, 255];
+  if (!Number.isFinite(v)) return ['var(--cell)', false];
+  if (p.palette === 'label') return v <= 0 ? ['var(--cell)', false] : [`var(--c-${LABEL_COLORS[(v - 1) % LABEL_COLORS.length]})`, true];
+  if (p.palette === 'signed') {
+    const m = Math.max(Math.abs(lo), Math.abs(hi)) || 1;
+    const t = Math.max(-1, Math.min(1, v / m));
+    const pct = Math.round(Math.abs(t) * 100);
+    return [`color-mix(in srgb, ${t < 0 ? '#3b82f6' : '#f97316'} ${pct}%, var(--cell))`, pct > 55];
+  }
+  const t = Math.max(0, Math.min(1, (v - lo) / (hi - lo || 1)));
+  if (p.palette === 'heat') return [`hsl(${Math.round(250 - 230 * t)} 85% ${Math.round(18 + 52 * t)}%)`, t < 0.55];
+  const g = Math.round(t * 255);
+  return [`rgb(${g},${g},${g})`, g < 128];
+}
+
+function ImageView({ p }: { p: ImagePanel }) {
+  const R = p.px.length, C = Math.max(0, ...p.px.map((r) => r.length));
+  const sz = p.cell ?? (p.vals ? 30 : Math.max(8, Math.min(26, Math.floor(420 / Math.max(R, C, 1)))));
+  const W = C * sz, H = R * sz;
+  return (
+    <svg viewBox={`-2 -2 ${W + 4} ${H + 4}`} style={{ width: '100%', maxWidth: Math.max(W * 1.4, 160), display: 'block', margin: '0 auto' }}>
+      {p.px.map((row, r) =>
+        row.map((v, c) => {
+          const [fill, dark] = pxFill(v, p);
+          return (
+            <g key={r + ',' + c}>
+              <rect className="px" x={c * sz} y={r * sz} width={sz} height={sz} fill={fill} />
+              {p.vals && (
+                <text x={c * sz + sz / 2} y={r * sz + sz / 2 + 3.5} textAnchor="middle" fontSize={sz > 26 ? 10 : 8} fill={dark ? '#fff' : '#111'}>
+                  {Number.isInteger(v) ? v : +v.toFixed(1)}
+                </text>
+              )}
+            </g>
+          );
+        }),
+      )}
+      {Object.entries(p.colors ?? {}).map(([k, col]) => {
+        if (!col) return null;
+        const [r, c] = k.split(',').map(Number);
+        return <rect key={'o' + k} x={c * sz + 1} y={r * sz + 1} width={sz - 2} height={sz - 2} fill="none" stroke={cv(col)} strokeWidth={2.2} rx={2} />;
+      })}
+      {(p.marks ?? []).map((m, i) => (
+        <circle key={'m' + i} cx={m.c * sz + sz / 2} cy={m.r * sz + sz / 2} r={Math.max(3, sz * 0.28)} fill={cv(m.color ?? 'bad')} stroke="#fff" strokeWidth={1.2} />
+      ))}
+    </svg>
+  );
+}
+
 function VarsView({ p }: { p: VarsPanel }) {
   return (
     <div className="vars">
@@ -345,6 +397,7 @@ export function PanelView({ p }: { p: Panel }) {
     case 'plot': return <PlotView p={p} />;
     case 'vars': return <VarsView p={p} />;
     case 'text': return <TextView p={p} />;
+    case 'image': return <ImageView p={p} />;
   }
 }
 

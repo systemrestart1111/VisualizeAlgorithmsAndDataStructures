@@ -1,0 +1,2 @@
+minimal states: 4 groups: {AC} {B} {D} {E}
+same language on 127/127 strings up to length 6

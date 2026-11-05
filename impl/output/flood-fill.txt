@@ -1,0 +1,6 @@
+seed (4,4) -> color 4, 4-connected: 32 cells filled, grid sum 275
+seed (4,4) -> color 4, 8-connected: 113 cells filled, grid sum 518
+seed (0,0) -> color 5, 4-connected: 81 cells filled, grid sum 503
+seed (5,5) -> color 3, 4-connected: 0 cells filled (same color, nothing to do), grid sum 179
+seed (5,5) -> color 1, 8-connected: 4 cells filled, grid sum 171
+seed (2,5) -> color 4, 4-connected: 27 cells filled, grid sum 233

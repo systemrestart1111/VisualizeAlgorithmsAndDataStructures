@@ -1,0 +1,4 @@
+t = 61: a[1] + a[7] = 5 + 56 | brute: True
+t = 100: none | brute: False
+t = 4: none | brute: False
+t = 163: a[8] + a[9] = 72 + 91 | brute: True

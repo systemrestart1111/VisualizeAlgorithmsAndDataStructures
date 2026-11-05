@@ -1,0 +1,4 @@
+abacabadab: 10 palindromes ['a', 'aba', 'abacaba', 'aca', 'ada', 'b', 'bacab', 'badab', 'c', 'd'] (brute 10)
+eertree: 7 palindromes ['e', 'ee', 'eertree', 'ertre', 'r', 'rtr', 't'] (brute 7)
+aaaa: 4 palindromes ['a', 'aa', 'aaa', 'aaaa'] (brute 4)
+abc: 3 palindromes ['a', 'b', 'c'] (brute 3)

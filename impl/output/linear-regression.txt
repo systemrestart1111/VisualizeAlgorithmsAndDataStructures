@@ -1,0 +1,10 @@
+noisy data: closed form w = 2.0911, b = 0.4902, MSE = 1.2323
+  lr 0.02, 200 epochs: w = 2.0949, b = 0.4661, MSE = 1.2324
+  lr 0.02, 2000 epochs: w = 2.0911, b = 0.4902, MSE = 1.2323
+  lr 0.005, 200 epochs: w = 2.1067, b = 0.3903, MSE = 1.2347
+  lr 0.05: diverged at epoch 6
+exact data: closed form w = 2.0000, b = 1.0000, MSE = 0.0000
+  lr 0.02, 200 epochs: w = 2.0158, b = 0.8987, MSE = 0.0025
+  lr 0.02, 2000 epochs: w = 2.0000, b = 1.0000, MSE = 0.0000
+  lr 0.005, 200 epochs: w = 2.0654, b = 0.5808, MSE = 0.0424
+  lr 0.05: diverged at epoch 6

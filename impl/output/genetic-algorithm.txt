@@ -1,0 +1,5 @@
+dynamic programming optimum: 41
+seed 4, 30 generations, mutation 0.05: best 001110110011, weight 24, value 40
+seed 4, 80 generations, mutation 0.05: best 010110110011, weight 25, value 41
+seed 9, 30 generations, mutation 0.01: best 001110110011, weight 24, value 40
+seed 2, 30 generations, mutation 0.2: best 010110110011, weight 25, value 41

@@ -1,0 +1,5 @@
+eps 1.2, minPts 4: 3 clusters, core 12, border 6, noise 5; labels 0 0 0 0 0 0 0 0 1 1 -1 1 1 1 1 2 2 2 2 -1 -1 -1 -1
+eps 0.8, minPts 4: 1 clusters, core 1, border 3, noise 19; labels -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1
+eps 2.0, minPts 4: 3 clusters, core 19, border 0, noise 4; labels 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 2 2 2 2 -1 -1 -1 -1
+eps 1.2, minPts 3: 3 clusters, core 18, border 1, noise 4; labels 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 2 2 2 2 -1 -1 -1 -1
+eps 1.2, minPts 6: 1 clusters, core 2, border 6, noise 15; labels 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1

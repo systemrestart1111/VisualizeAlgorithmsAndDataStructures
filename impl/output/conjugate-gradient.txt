@@ -1,0 +1,4 @@
+x = (2.000000, -2.000000) in 2 steps (n = 2), residual small True
+x = (0.222222, 0.111111, 1.444444) in 3 steps (n = 3), residual small True
+x = (0.090909, 0.636364) in 2 steps (n = 2), residual small True
+not symmetric positive definite: CG not applicable

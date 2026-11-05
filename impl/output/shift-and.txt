@@ -1,0 +1,4 @@
+'abra' in 'abracadabra cadabra': [0, 7, 15] (brute [0, 7, 15])
+'aa' in 'aaaaa': [0, 1, 2, 3] (brute [0, 1, 2, 3])
+'at' in 'the cat sat on the mat': [5, 9, 20] (brute [5, 9, 20])
+'abcd' in 'abc': [] (brute [])

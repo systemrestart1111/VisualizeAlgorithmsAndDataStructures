@@ -335,7 +335,7 @@ const fnSel = () => inSelect('fn', '函數 f(x)', Object.entries(FNS).map(([k, v
 const curve = (F: Fn, a = F.range[0], b = F.range[1]): [number, number][] => Array.from({ length: 121 }, (_, i) => { const x = a + ((b - a) * i) / 120; return [x, F.f(x)]; });
 
 const bisection: AlgoDef = {
-  id: 'bisection', name: '二分求根', en: 'Bisection Method', cat,
+  id: 'bisection', name: '二分求根', en: 'Bisection Method', cat: 'numeric',
   desc: '若連續函數在 [a, b] 兩端異號，中間必有根（勝負值定理）。每次取中點 m，保留與 f(m) 異號的那一半，區間長度每步減半。保證收斂但較慢（線性收斂）。',
   time: 'O(log((b−a)/ε))', space: 'O(1)',
   code: ['要求 f(a)·f(b) < 0', 'while b - a > ε:', '  m = (a + b) / 2', '  if f(a)·f(m) <= 0: b = m', '  else: a = m', 'return (a + b) / 2'],
@@ -357,7 +357,7 @@ const bisection: AlgoDef = {
 };
 
 const newton: AlgoDef = {
-  id: 'newton-method', name: '牛頓法', en: "Newton's Method", cat,
+  id: 'newton-method', name: '牛頓法', en: "Newton's Method", cat: 'numeric',
   desc: '從初始猜測 x₀ 出發，在 (x, f(x)) 畫切線，切線與 x 軸的交點即為下一個猜測：x ← x − f(x)/f′(x)。在根附近為二次收斂（每步有效位數約加倍），但初始值不好時可能發散。',
   time: '每步 O(1)，二次收斂', space: 'O(1)',
   code: ['x = x0', 'repeat:', '  x_new = x - f(x) / f\'(x)', '  if |x_new - x| < ε: break', '  x = x_new', 'return x'],
@@ -392,7 +392,7 @@ const GD: Record<string, { f: (x: number) => number; d: (x: number) => number; l
 };
 
 const gradient: AlgoDef = {
-  id: 'gradient-descent', name: '梯度下降', en: 'Gradient Descent', cat,
+  id: 'gradient-descent', name: '梯度下降', en: 'Gradient Descent', cat: 'ml',
   desc: '沿著負梯度方向一步步走向函數的極小值：x ← x − η·f′(x)。學習率 η 太小收斂慢，太大會震盪甚至發散；非凸函數可能停在局部極小值。試著調整 η 與起點比較。',
   time: '每步 O(1)', space: 'O(1)',
   code: ['x = x0', 'repeat steps 次:', '  g = f\'(x)', '  x = x - η · g', '  if |g| < ε: break'],
@@ -420,7 +420,7 @@ const gradient: AlgoDef = {
 };
 
 const gauss: AlgoDef = {
-  id: 'gaussian-elimination', name: '高斯消去法', en: 'Gaussian Elimination (Partial Pivoting)', cat,
+  id: 'gaussian-elimination', name: '高斯消去法', en: 'Gaussian Elimination (Partial Pivoting)', cat: 'numeric',
   desc: '解線性方程組 Ax = b：對增廣矩陣 [A | b] 做列運算化為上三角（每一欄先挑絕對值最大的列當主元，以提升數值穩定性），再由下往上回代求解。',
   time: 'O(n³)', space: 'O(n²)',
   code: ['for col = 0 .. n-1:', '  pivot = 該欄 |值| 最大的列；與目前列交換', '  for 下方每一列 r:', '    factor = M[r][col] / M[col][col]', '    M[r] -= factor · M[col]', '回代：for i = n-1 .. 0:', '  x[i] = (b[i] - Σ M[i][j]·x[j]) / M[i][i]'],
@@ -471,7 +471,7 @@ const parsePts = (s: string) => String(s).split(';').map((x) => x.trim().split(/
 const CL: Color[] = ['active', 'bad', 'good', 'special', 'compare', 'frontier', 'visited', 'path'];
 
 const kmeans: AlgoDef = {
-  id: 'k-means', name: 'K 平均分群', en: 'K-Means Clustering (Lloyd)', cat,
+  id: 'k-means', name: 'K 平均分群', en: 'K-Means Clustering (Lloyd)', cat: 'ml',
   desc: '先隨機選 k 個中心，然後反覆兩步直到不再變動：①分配：每個點歸給最近的中心；②更新：中心移到所屬點的平均位置。結果與初始中心有關（實務上常用 k-means++ 初始化）。',
   time: 'O(n · k · 迭代數)', space: 'O(n + k)',
   code: ['隨機選 k 個點作為初始中心', 'repeat:', '  分配：每個點 → 最近的中心', '  更新：中心 = 所屬點的平均', '  if 分配不再改變: break'],
@@ -499,7 +499,7 @@ const kmeans: AlgoDef = {
 };
 
 const knn: AlgoDef = {
-  id: 'k-nn', name: 'K 近鄰分類', en: 'k-Nearest Neighbors', cat,
+  id: 'k-nn', name: 'K 近鄰分類', en: 'k-Nearest Neighbors', cat: 'ml',
   desc: '「懶惰學習」：不事先訓練。預測新點時，找出距離最近的 k 個訓練點，以多數決決定類別。k 太小容易受雜訊影響，k 太大會模糊邊界。',
   time: '每次查詢 O(n log n)', space: 'O(n)',
   code: ['for 每個訓練點 p: d = dist(query, p)', '依距離排序', '取前 k 個', '統計各類別票數', '預測 = 票數最多的類別'],

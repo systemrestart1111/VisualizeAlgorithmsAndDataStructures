@@ -1,0 +1,6 @@
+3x4: 11 tilings (brute 11)
+2x8: 34 tilings (brute 34)
+4x4: 36 tilings (brute 36)
+3x3: 0 tilings (brute 0)
+4x6: 281 tilings (brute 281)
+6x6: 6728 tilings

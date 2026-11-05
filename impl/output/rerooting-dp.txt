@@ -1,0 +1,2 @@
+sum of distances: 1:19 2:19 3:21 4:27 5:23 6:29 7:27 8:31 9:31 10:35
+best center: 1 with 19

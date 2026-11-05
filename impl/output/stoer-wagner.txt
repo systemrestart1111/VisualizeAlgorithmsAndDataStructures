@@ -1,0 +1,2 @@
+cut of each phase: 5 7 7 4 8 7 5
+min cut: 4 side: [3, 4, 7, 8]

@@ -1,0 +1,6 @@
+classic: optimal max = 36.000000 at x = (2.000000, 6.000000), 3 pivots
+unbounded: unbounded
+infeasible: infeasible
+min with >=: optimal min = 9.000000 at x = (3.000000, 1.000000), 2 pivots
+degenerate: optimal max = 6.000000 at x = (2.000000, 2.000000), 2 pivots
+Beale cycling: optimal max = 1.250000 at x = (1.000000, 0.000000, 1.000000, 0.000000), 6 pivots

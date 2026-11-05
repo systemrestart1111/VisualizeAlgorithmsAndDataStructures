@@ -1,0 +1,4 @@
+T = 30: best = 30 brute = 30
+T = 10: best = 10 brute = 10
+T = 1: best = 0 brute = 0
+T = 1000: best = 70 brute = 70

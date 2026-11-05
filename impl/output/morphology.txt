@@ -1,0 +1,4 @@
+noisy blobs, square: input 107 (6 parts), erode 31, dilate 197, open 89 (2 parts), close 127 (1 parts)
+noisy blobs, cross: input 107 (6 parts), erode 47, dilate 176, open 90 (2 parts), close 113 (2 parts)
+blobs, square: input 104 (2 parts), erode 50, dilate 174, open 104 (2 parts), close 108 (1 parts)
+blobs, cross: input 104 (2 parts), erode 58, dilate 158, open 94 (2 parts), close 105 (2 parts)

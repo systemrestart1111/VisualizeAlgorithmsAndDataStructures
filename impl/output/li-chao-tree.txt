@@ -1,0 +1,6 @@
+x =  0: li chao -6, brute -6
+x =  3: li chao 0, brute 0
+x =  6: li chao 4, brute 4
+x =  9: li chao 1, brute 1
+x = 12: li chao -4, brute -4
+x = 15: li chao -10, brute -10

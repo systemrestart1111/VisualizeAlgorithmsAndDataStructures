@@ -1,0 +1,5 @@
+8 cities, brute-force optimum 25.858
+seed 7, 2000 steps, cooling 0.997: best 25.858, gap 0.00%, accepted 25 worse moves
+seed 7, 300 steps, cooling 0.99: best 25.858, gap 0.00%, accepted 14 worse moves
+seed 11, 2000 steps, cooling 0.997: best 25.858, gap 0.00%, accepted 26 worse moves
+seed 3, 8000 steps, cooling 0.9995: best 25.858, gap 0.00%, accepted 143 worse moves

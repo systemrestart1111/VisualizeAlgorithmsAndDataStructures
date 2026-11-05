@@ -1,0 +1,3 @@
+cipher: LXFOPV EF RNHR!
+plain : ATTACK AT DAWN!
+mixed : Rijvs, Uyvjn

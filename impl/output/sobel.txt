@@ -1,0 +1,3 @@
+shapes: sum|Gx| = 32060, sum|Gy| = 34880, Gx(5,7) = -680, Gy(6,4) = -680, max magnitude 721.25, 70 flat pixels all zero True
+step: sum|Gx| = 16640, sum|Gy| = 5120, Gx(5,7) = 520, Gy(6,4) = 0, max magnitude 544.06, 144 flat pixels all zero True
+checker: sum|Gx| = 53040, sum|Gy| = 53040, Gx(5,7) = 680, Gy(6,4) = 0, max magnitude 680.00, 64 flat pixels all zero True

@@ -1,0 +1,7 @@
+P L A Y F
+I R E X M
+B C D G H
+K N O Q S
+T U V W Z
+cipher: BM OD ZB XD NA BE KU DM UI XM MO UV IF
+plain : HI DE TH EG OL DI NT HE TR EX ES TU MP

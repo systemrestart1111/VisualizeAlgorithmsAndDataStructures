@@ -1,0 +1,3 @@
+a|b; !a|c; !b|!c; c|d; !d|!a => a=T b=F c=T d=F | verified True
+a|b; a|!b; !a|b; !a|!b => unsatisfiable
+x|y; !x|y; !y|z => x=T y=T z=T | verified True

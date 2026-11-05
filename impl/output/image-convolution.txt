@@ -1,0 +1,9 @@
+sharpen/zero: sum 20800, out(0,0) = 90, out(5,4) = 200, min -190, max 540
+sharpen/replicate: sum 18880, out(0,0) = 30, out(5,4) = 200, min -190, max 540
+sharpen/reflect: sum 17720, out(0,0) = 30, out(5,4) = 200, min -190, max 540
+laplace/zero: sum -1920, out(0,0) = -60, out(5,4) = 0, min -340, max 220
+laplace/replicate: sum 0, out(0,0) = 0, out(5,4) = 0, min -340, max 220
+laplace/reflect: sum 1160, out(0,0) = 0, out(5,4) = 0, min -340, max 220
+emboss/zero: sum 18880, out(0,0) = 150, out(5,4) = 200, min -480, max 880
+emboss/replicate: sum 18880, out(0,0) = 30, out(5,4) = 200, min -480, max 880
+emboss/reflect: sum 20200, out(0,0) = 30, out(5,4) = 200, min -480, max 880
